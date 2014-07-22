@@ -68,13 +68,12 @@ body {
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%;
-      height: 0;
-      padding-bottom: 100%; }
+      height: 200px;
+      background-color: white;
+      margin-bottom: 15px; }
       body #grid .box:last-child {
         margin-right: 0; }
       body #grid .box:nth-child(2n) {
         margin-right: 0; }
       body #grid .box:nth-child(2n+1) {
         clear: left; }
-      body #grid .box img {
-        width: 100%; }
