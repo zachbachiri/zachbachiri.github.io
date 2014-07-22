@@ -63,13 +63,18 @@ body {
       line-height: 50px; }
       body #grid #description:last-child {
         margin-right: 0; }
-    body #grid #narrative {
+    body #grid .box {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%;
-      margin-right: 0;
-      height: 250px;
-      background-color: white; }
-      body #grid #narrative:last-child {
+      height: 0;
+      padding-bottom: 100%; }
+      body #grid .box:last-child {
         margin-right: 0; }
+      body #grid .box:nth-child(2n) {
+        margin-right: 0; }
+      body #grid .box:nth-child(2n+1) {
+        clear: left; }
+      body #grid .box img {
+        width: 100%; }

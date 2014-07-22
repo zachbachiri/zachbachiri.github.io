@@ -61,12 +61,16 @@ body {
             line-height: 50px;
         }
 
-        #narrative{
+        .box{
             @include span-columns(6);
-            @include omega();
-            height: 250px;
-            background-color: white;
+            @include omega(2n);
+            height: 0;
+            padding-bottom: 100%;
+            img{
+                width: 100%;
+            }
         }
+
     }
 
 
