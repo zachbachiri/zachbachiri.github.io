@@ -1,21 +1,67 @@
-//@import url('http://fonts.googleapis.com/css?family=Open+Sans');
-@import url('http://fonts.googleapis.com/css?family=Oswald');
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import "css/bourbon/bourbon"; // or "bourbon" when in Rails
 @import "grid-settings";
 @import "css/neat/neat";
-@font-face{
-    font-family: Open Sans;
-    src: url('plugins/fonts/Open_Sans/OpenSans-Regular.ttf');
-}
 
+$font-stack: Lato, sans-serif;
+$grey-dark: rgb(44, 44, 44);
 
 body {
     margin: 0;
     padding: 0;
     width: 100%;
-    background: url('images/background.png');
-    background-repeat:no-repeat;
-    background-size:cover;
+    font: 10pt $font-stack;
+    background-color: rgb(237, 237, 237);
+
+
+    #header{
+        @include outer-container;
+        color: $grey-dark;
+        font-weight: 700;
+        margin-top: 25px;
+        margin-bottom: 75px;
+        #name{
+            font-size: 2em; 
+            text-align: right;
+            a{
+                text-decoration: none;
+                color: $grey-dark;
+                font-size: 1em;
+                float: right;
+            }
+                a:hover{
+                color: rgb(0, 128, 255);        
+            }
+        }
+        ul{
+            padding-left: 0;
+            li{
+                display: inline;
+                padding-right: 50px;
+                padding-left: 0;
+                margin-left: 0;
+                a{
+                    text-decoration: none;
+                    color: $grey-dark;
+                    font-size: 1.2em;
+                }
+            }
+        }
+        a:hover{
+            color: rgb(0, 128, 255);        
+        }
+    }
+
+    #grid{
+        @include outer-container;
+        #description{
+            @include span-columns(6);
+            font-size: 3em;
+            font-weight: 700;
+        }
+    }
+
+
 }
 
 
