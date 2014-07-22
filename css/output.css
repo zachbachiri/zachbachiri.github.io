@@ -31,7 +31,7 @@ body {
         font-size: 1em;
         float: right; }
       body #header #name a:hover {
-        color: #0080ff; }
+        color: #0081ff; }
     body #header ul {
       padding-left: 0; }
       body #header ul li {
@@ -63,6 +63,15 @@ body {
       line-height: 50px; }
       body #grid #description:last-child {
         margin-right: 0; }
+      @media screen and (max-width: 640px) {
+        body #grid #description {
+          float: left;
+          display: block;
+          margin-right: 7.42297%;
+          width: 100%;
+          margin-right: 0; }
+          body #grid #description:last-child {
+            margin-right: 0; } }
     body #grid .box {
       float: left;
       display: block;
@@ -78,6 +87,15 @@ body {
         margin-right: 0; }
       body #grid .box:nth-child(2n+1) {
         clear: left; }
+      @media screen and (max-width: 640px) {
+        body #grid .box {
+          float: left;
+          display: block;
+          margin-right: 7.42297%;
+          width: 100%;
+          margin-right: 0; }
+          body #grid .box:last-child {
+            margin-right: 0; } }
     body #grid .box:after {
       content: '\A';
       position: absolute;

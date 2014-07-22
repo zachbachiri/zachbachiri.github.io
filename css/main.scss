@@ -31,7 +31,7 @@ body {
                 float: right;
             }
                 a:hover{
-                color: rgb(0, 128, 255);        
+                color: rgb(0, 129, 255);        
             }
         }
         ul{
@@ -59,7 +59,7 @@ body {
             @include span-columns(6);
             @include media($mobile) {
                 @include span-columns(4);
-                @inlude omega();
+                @include omega();
             }
             font-size: 3em;
             font-weight: 700;
@@ -71,7 +71,7 @@ body {
             @include omega(2n);
             @include media($mobile) {
                 @include span-columns(4);
-                @inlude omega();
+                @include omega();
             }
             position: relative;
             height: 200px;
