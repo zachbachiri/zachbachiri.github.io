@@ -58,6 +58,14 @@ body {
             @include span-columns(6);
             font-size: 3em;
             font-weight: 700;
+            line-height: 50px;
+        }
+
+        #narrative{
+            @include span-columns(6);
+            @include omega();
+            height: 250px;
+            background-color: white;
         }
     }
 

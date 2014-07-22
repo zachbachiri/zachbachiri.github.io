@@ -59,6 +59,17 @@ body {
       margin-right: 2.35765%;
       width: 48.82117%;
       font-size: 3em;
-      font-weight: 700; }
+      font-weight: 700;
+      line-height: 50px; }
       body #grid #description:last-child {
+        margin-right: 0; }
+    body #grid #narrative {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin-right: 0;
+      height: 250px;
+      background-color: white; }
+      body #grid #narrative:last-child {
         margin-right: 0; }
