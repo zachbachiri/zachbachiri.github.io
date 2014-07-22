@@ -5,6 +5,7 @@
 
 $font-stack: Lato, sans-serif;
 $grey-dark: rgb(44, 44, 44);
+$mobile: new-breakpoint(max-width 640px 4);
 
 body {
     margin: 0;
@@ -56,6 +57,10 @@ body {
         @include outer-container;
         #description{
             @include span-columns(6);
+            @include media($mobile) {
+                @include span-columns(4);
+                @inlude omega();
+            }
             font-size: 3em;
             font-weight: 700;
             line-height: 50px;
@@ -64,6 +69,10 @@ body {
         .box{
             @include span-columns(6);
             @include omega(2n);
+            @include media($mobile) {
+                @include span-columns(4);
+                @inlude omega();
+            }
             position: relative;
             height: 200px;
             background-color: white;
