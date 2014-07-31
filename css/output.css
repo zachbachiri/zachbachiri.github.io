@@ -44,7 +44,7 @@ body {
           color: #2c2c2c;
           font-size: 1.2em; }
     body #header a:hover {
-      color: #0080ff; }
+      color: zach-blue; }
   body #grid {
     max-width: 930px;
     margin-left: auto;
@@ -103,7 +103,8 @@ body {
       height: 100%;
       top: 0;
       left: 0;
-      background: rgba(0, 0, 0, 0.6);
+      background-color: #0080ff;
+      opacity: .6;
       opacity: 0;
       transition: all 0.5s;
       -webkit-transition: all 0.5s; }
