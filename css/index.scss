@@ -23,12 +23,12 @@
         }
         height: 200px;
         background-color: white;
+        display: relative;
         .hover-content{
             display: none;
         }
     }
     .box:hover{
-        background-color: $zach-blue;
         text-align: center;
         -webkit-transition: background-color 200ms linear;
         -moz-transition: background-color 200ms linear;
@@ -37,8 +37,12 @@
         transition: background-color 200ms linear;
         .hover-content{
             display: inline;
-            position: relative;
-            top: 45%;
+            @include span-columns(12);
+            height: 100%;
+            padding-top: auto;
+            padding-bottom: auto;
+            background-color: $zach-blue;
+            opacity: .7;
             color: white;
         }
     }

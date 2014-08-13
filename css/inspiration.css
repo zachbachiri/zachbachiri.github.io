@@ -51,7 +51,14 @@ body {
 #grid {
   max-width: 930px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  /*
+  .item:hover{
+  	position: fixed;
+  	width: 50%;
+  	z-index: 101;
+  }
+  */ }
   #grid:after {
     content: "";
     display: table;
