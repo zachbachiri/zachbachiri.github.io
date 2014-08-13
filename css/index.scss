@@ -1,0 +1,71 @@
+@import "header.scss";
+
+
+#grid{
+    @include outer-container;
+    #description{
+        @include span-columns(6);
+        @include omega();
+        @include media($mobile) {
+            @include span-columns(4);
+            @include omega();
+        }
+        font-size: 3em;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    .box{
+        @include span-columns(6);
+        @include omega();
+        @include media($mobile) {
+            @include span-columns(4);
+            @include omega();
+        }
+        height: 200px;
+        background-color: white;
+        .hover-content{
+            display: none;
+        }
+    }
+    .box:hover{
+        background-color: $zach-blue;
+        text-align: center;
+        -webkit-transition: background-color 200ms linear;
+        -moz-transition: background-color 200ms linear;
+        -o-transition: background-color 200ms linear;
+        -ms-transition: background-color 200ms linear;
+        transition: background-color 200ms linear;
+        .hover-content{
+            display: inline;
+            position: relative;
+            top: 45%;
+            color: white;
+        }
+    }
+}
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
