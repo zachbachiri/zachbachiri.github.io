@@ -24,13 +24,13 @@
 			<li><a href="mailto:zachbachiri@gmail.com">Contact</a></li>
 			<li><a href="../css/images/ZachBachiriResume.pdf">Resume</a></li>
 			<li><a href="https://github.com/zachbachiri">Github</a></li>
-			<li><a href="https://www.flickr.com/photos/zach_bachiri/">Flickr</a></li>
+			<li><a href="#">Inspiration</a></li>
 		</ul>
 	</div>
 
 	<div id="grid">
 
-		<h2>What I want the world to look like.</h2>
+		<h2>How I wish the world looked.</h2>
 
 		<div id="container">
 			<div class="item"><img src="../images/1.jpg"></div>
@@ -42,17 +42,31 @@
 			<div class="item"><img src="../images/7.jpg"></div>
 			<div class="item"><img src="../images/8.jpg"></div>
 			<div class="item"><img src="../images/9.jpg"></div>
+			<div class="item"><img src="../images/10.jpg"></div>
+			<div class="item"><img src="../images/11.jpg"></div>
+			<div class="item"><img src="../images/12.jpg"></div>
+			<div class="item"><img src="../images/13.jpg"></div>
+			<div class="item"><img src="../images/14.jpg"></div>
+			<div class="item"><img src="../images/15.jpg"></div>
+			<div class="item"><img src="../images/16.jpg"></div>
 		</div>
 	</div>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="../plugins/imagesloaded.pkgd.min.js"></script>
 	<script src="../plugins/masonry.pkgd.min.js"></script>
 	<script type="text/javascript">
-	var container = document.querySelector('#container');
-	var msnry = new Masonry( container, {
-		itemSelector: '.item',
-		gutter: 10
-	});
+    </script>
+
+	<script type="text/javascript">
+		var container = document.querySelector('#container');
+		var msnry;
+		imagesLoaded( container, function() {
+			msnry = new Masonry( container, {
+				itemSelector: '.item',
+				gutter: 10
+			});
+		});
 	</script>
 
 
