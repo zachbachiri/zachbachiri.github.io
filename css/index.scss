@@ -10,7 +10,7 @@
             @include span-columns(4);
             @include omega();
         }
-        font-size: 2.8em;
+        font-size: 3em;
         font-weight: 700;
         background: none;
     }
@@ -25,14 +25,14 @@
             @include omega();
         }
         position: relative;
-        height: 200px;
+        height: 250px;
         background-color: white;
         display: relative;
         margin-bottom: 20px;
         .hover-content{
             display: none;
             .hover-link{
-                margin-top: 15%;
+                margin-top: 90px;
                 margin-left: auto;
                 margin-right: auto;
                 border-radius: 3px;
@@ -45,11 +45,9 @@
                 background-color: white;
             }
         }
-        @media only screen 
-        and (min-device-width : 768px) 
-        and (max-device-width : 1024px) 
-        and (orientation : portrait) {
+        @include media($mobile) {
             .hover-content{
+                text-align: center;
                 display: inline;
                 position: absolute;
                 height: 100%;
@@ -57,7 +55,9 @@
                 top: 0;
                 left: 0;
                 background-color: rgba(0, 0, 0, .5);
-                color: $zach-blue;
+                .hover-link{
+                    color: $zach-blue;
+                }
             }
         }
         a{
