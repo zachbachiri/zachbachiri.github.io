@@ -1,11 +1,12 @@
-@import "header.scss";
 
 
-#grid{
+
+.grid{
 	@include outer-container;
 	h2{
-		font-size: 4em;
+		font-size: 3em;
 		margin: 0 0 75px 0;
+		text-align: center;
 	}
 	.item{
 		width: 24%;
@@ -14,12 +15,5 @@
 			width: 100%;
 		}
 	}
-	/*
-	.item:hover{
-		position: fixed;
-		width: 50%;
-		z-index: 101;
-	}
-	*/
 	
 }

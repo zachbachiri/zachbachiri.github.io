@@ -11,7 +11,7 @@ body {
   font: 10pt Lato, sans-serif;
   background-color: #ededed; }
 
-#header {
+.header {
   max-width: 930px;
   margin-left: auto;
   margin-right: auto;
@@ -19,36 +19,36 @@ body {
   font-weight: 700;
   margin-bottom: 75px;
   margin-top: 15px; }
-  #header:after {
+  .header:after {
     content: "";
     display: table;
     clear: both; }
-  #header #name {
+  .header .name {
     font-size: 3em;
     text-align: right; }
-    #header #name a {
+    .header .name a {
       text-decoration: none;
       color: #2c2c2c;
       float: right; }
-    #header #name a:hover {
+    .header .name a:hover {
       color: #0081ff; }
-  #header ul {
+  .header ul {
     padding-left: 0;
     margin-top: 20px;
     float: left; }
-    #header ul li {
+    .header ul li {
       display: inline;
       padding-right: 25px;
       padding-left: 0;
       margin-left: 0; }
-      #header ul li a {
+      .header ul li a {
         text-decoration: none;
         color: #2c2c2c;
         font-size: 1.2em; }
-  #header a:hover {
+  .header a:hover {
     color: #0080ff; }
 
-#grid {
+.grid {
   max-width: 930px;
   margin-left: auto;
   margin-right: auto;
@@ -59,15 +59,15 @@ body {
   	z-index: 101;
   }
   */ }
-  #grid:after {
+  .grid:after {
     content: "";
     display: table;
     clear: both; }
-  #grid h2 {
+  .grid h2 {
     font-size: 4em;
     margin: 0 0 75px 0; }
-  #grid .item {
+  .grid .item {
     width: 24%;
     margin-bottom: 10px; }
-    #grid .item img {
+    .grid .item img {
       width: 100%; }
