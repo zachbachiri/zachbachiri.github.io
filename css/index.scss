@@ -45,6 +45,21 @@
                 background-color: white;
             }
         }
+        @media only screen 
+        and (min-device-width : 768px) 
+        and (max-device-width : 1024px) 
+        and (orientation : portrait) {
+            .hover-content{
+                display: inline;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                left: 0;
+                background-color: rgba(0, 0, 0, .5);
+                color: $zach-blue;
+            }
+        }
         a{
             text-decoration: none;
         }

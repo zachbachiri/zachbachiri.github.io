@@ -132,6 +132,16 @@ body {
         font-weight: 700;
         color: #2c2c2c;
         background-color: white; }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+      .grid .box .hover-content {
+        display: inline;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #0080ff; } }
     .grid .box a {
       text-decoration: none; }
   .grid .box:hover {
