@@ -5,6 +5,9 @@
 .content_wrap{
     .about_header{
         margin-bottom: 50px;
+        @include media($mobile) {
+            text-align: right;
+        }
     }
     .about{
         font-size: 20px;
@@ -20,6 +23,10 @@
         background-color: white;
         postition: relative;
         margin-bottom: 50px;
+        @include media($mobile) {
+           width: 100%;
+           margin-right: 0;
+        }
         .hover-content{
             display: none;
             .hover-link{

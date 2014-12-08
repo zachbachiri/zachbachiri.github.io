@@ -6,7 +6,7 @@
 $font-stack: Lato, sans-serif;
 $grey-dark: #2C2C2C;
 $zach-blue: #03A9F4;
-$mobile: new-breakpoint(max-width 960px 4);
+$mobile: new-breakpoint(max-width 800px 4);
 $light-grey: #EDEDED;
 
 body {
@@ -22,9 +22,6 @@ body {
     a:hover{
         color: #0277BD;
     }
-}
-.page_wrap{
-    min-width: 800px;
 }
 .page_wrap:after{
     content: "."; 
@@ -42,6 +39,9 @@ body {
     margin: 0;
     padding-top: 25px;
     text-align: right;
+    @include media($mobile) {
+       width: 100%;
+    }
     .name{
         font-size: 6em; 
         a{
@@ -86,4 +86,7 @@ body {
     padding-right: 5%;
     margin: 0;
     margin-top: 30px;
+    @include media($mobile) {
+       width: 100%;
+    }
 }
