@@ -16,7 +16,10 @@ body {
   body a:hover {
     color: #0277BD; }
 
-.body:after {
+.page_wrap {
+  min-width: 800px; }
+
+.page_wrap:after {
   content: ".";
   visibility: hidden;
   display: block;
@@ -60,29 +63,29 @@ body {
   .header a:hover {
     color: #03a9f4; }
 
-.page_wrap {
+.content_wrap {
   width: 67%;
   float: right;
   padding-right: 5%;
   margin: 0;
   margin-top: 30px; }
 
-.page_wrap h2 {
+.content_wrap h2 {
   font-size: 3em;
   margin: 0 0 60px 0; }
-.page_wrap .item {
+.content_wrap .item {
   width: 24%;
   margin-bottom: 10px; }
-  .page_wrap .item img {
+  .content_wrap .item img {
     width: 100%; }
 
-.page_wrap .about_header {
+.content_wrap .about_header {
   margin-bottom: 50px; }
-.page_wrap .about {
+.content_wrap .about {
   font-size: 20px;
   line-height: 28px;
   margin-bottom: 50px; }
-.page_wrap .box {
+.content_wrap .box {
   width: 47%;
   margin-right: 5%;
   position: relative;
@@ -91,25 +94,25 @@ body {
   background-color: white;
   postition: relative;
   margin-bottom: 50px; }
-  .page_wrap .box .hover-content {
+  .content_wrap .box .hover-content {
     display: none; }
-    .page_wrap .box .hover-content .hover-link {
+    .content_wrap .box .hover-content .hover-link {
       margin-top: 90px;
       margin-left: auto;
       margin-right: auto;
       font-size: 45px;
       font-weight: 700;
       color: #2c2c2c; }
-.page_wrap .box_wrap:nth-child(odd) .box {
+.content_wrap .box_wrap:nth-child(odd) .box {
   margin-right: 0; }
-.page_wrap .box:hover {
+.content_wrap .box:hover {
   text-align: center;
   -webkit-transition: background-color 500ms linear;
   -moz-transition: background-color 500ms linear;
   -o-transition: background-color 500ms linear;
   -ms-transition: background-color 500ms linear;
   transition: background-color 500ms linear; }
-  .page_wrap .box:hover .hover-content {
+  .content_wrap .box:hover .hover-content {
     display: inline;
     position: absolute;
     height: 100%;
@@ -117,12 +120,12 @@ body {
     top: 0;
     left: 0;
     background-color: rgba(255, 255, 255, 0.7); }
-.page_wrap #inspiration-box {
+.content_wrap #inspiration-box {
   background-image: url("../images/inspiration.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-.page_wrap #photography-box {
+.content_wrap #photography-box {
   background-image: url("../images/photography.jpg");
   background-repeat: no-repeat;
   background-size: cover;

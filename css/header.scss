@@ -23,14 +23,16 @@ body {
         color: #0277BD;
     }
 }
-.body:after { 
-   content: "."; 
+.page_wrap{
+    min-width: 800px;
+}
+.page_wrap:after{
+    content: "."; 
    visibility: hidden; 
    display: block; 
    height: 0; 
    clear: both;
 }
-
 .header{
     width: 33%;
     float: left;
@@ -78,7 +80,7 @@ body {
         color: $zach-blue;        
     }
 }
-.page_wrap{
+.content_wrap{
     width: 67%;
     float: right;
     padding-right: 5%;
