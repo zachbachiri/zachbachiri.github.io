@@ -1,12 +1,8 @@
 
-
-
-.grid{
-	@include outer-container;
+.page_wrap{
 	h2{
 		font-size: 3em;
-		margin: 0 0 75px 0;
-		text-align: center;
+		margin: 0 0 60px 0;
 	}
 	.item{
 		width: 24%;

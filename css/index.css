@@ -1,0 +1,176 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0 10px;
+  padding: 0;
+  width: 100%;
+  font: 10pt Lato, sans-serif;
+  background-color: #ededed; }
+
+.header {
+  max-width: 930px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #2c2c2c;
+  font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  text-align: center; }
+  .header:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .header .name {
+    font-size: 6em; }
+    .header .name a {
+      text-decoration: none;
+      color: #2c2c2c; }
+    .header .name a:hover {
+      color: #0081ff; }
+  .header ul {
+    padding-left: 0;
+    margin-top: 0px; }
+    .header ul li {
+      display: inline;
+      padding-right: 25px;
+      padding-left: 0;
+      margin-left: 0; }
+      .header ul li a {
+        text-decoration: none;
+        color: #2c2c2c;
+        font-size: 1.2em; }
+  .header a:hover {
+    color: #0080ff; }
+
+.grid {
+  max-width: 930px;
+  margin-left: auto;
+  margin-right: auto; }
+  .grid:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .grid h2 {
+    font-size: 3em;
+    margin: 0 0 75px 0;
+    text-align: center; }
+  .grid .item {
+    width: 24%;
+    margin-bottom: 10px;
+    display: inline-block; }
+    .grid .item img {
+      width: 100%; }
+
+.grid {
+  max-width: 930px;
+  margin-left: auto;
+  margin-right: auto; }
+  .grid:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .grid #description {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    font-size: 3em;
+    font-weight: 700;
+    background: none; }
+    .grid #description:last-child {
+      margin-right: 0; }
+    @media screen and (max-width: 960px) {
+      .grid #description {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%;
+        margin-right: 0; }
+        .grid #description:last-child {
+          margin-right: 0; } }
+  .grid #description:hover {
+    text-align: left; }
+  .grid .box {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    position: relative;
+    height: 250px;
+    background-color: white;
+    display: relative;
+    margin-bottom: 20px; }
+    .grid .box:last-child {
+      margin-right: 0; }
+    .grid .box:nth-child(2n) {
+      margin-right: 0; }
+    .grid .box:nth-child(2n+1) {
+      clear: left; }
+    @media screen and (max-width: 960px) {
+      .grid .box {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%;
+        margin-right: 0; }
+        .grid .box:last-child {
+          margin-right: 0; } }
+    .grid .box .hover-content {
+      display: none; }
+      .grid .box .hover-content .hover-link {
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+        width: 220px;
+        height: 60px;
+        padding-top: 17px;
+        font-size: 1.7em;
+        font-weight: 700;
+        color: #2c2c2c;
+        background-color: white; }
+    @media screen and (max-width: 960px) {
+      .grid .box .hover-content {
+        text-align: center;
+        display: inline;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5); }
+        .grid .box .hover-content .hover-link {
+          color: #0080ff; } }
+    .grid .box a {
+      text-decoration: none; }
+  .grid .box:hover {
+    text-align: center;
+    -webkit-transition: background-color 500ms linear;
+    -moz-transition: background-color 500ms linear;
+    -o-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear; }
+    .grid .box:hover .hover-content {
+      display: inline;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.5); }
+    .grid .box:hover .hover-link:hover {
+      color: #0080ff; }
+  .grid #inspiration-box {
+    background-image: url("../images/8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  .grid #photography-box {
+    background-image: url("../images/photography.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }

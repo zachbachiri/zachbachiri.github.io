@@ -2,67 +2,38 @@
 @import "inspiration.scss";
 
 
-.grid{
-    @include outer-container;
-    #description{
-        @include span-columns(6);
-        @include media($mobile) {
-            @include span-columns(4);
-            @include omega();
-        }
-        font-size: 3em;
-        font-weight: 700;
-        background: none;
+.page_wrap{
+    .about_header{
+        margin-bottom: 50px;
     }
-    #description:hover{
-        text-align: left;
+    .about{
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 50px;
     }
     .box{
-        @include span-columns(6);
-        @include omega(2n);
-        @include media($mobile) {
-            @include span-columns(4);
-            @include omega();
-        }
+        width: 47%;
+        margin-right: 5%;
         position: relative;
+        float: left;
         height: 250px;
         background-color: white;
-        display: relative;
-        margin-bottom: 20px;
+        postition: relative;
+        margin-bottom: 50px;
         .hover-content{
             display: none;
             .hover-link{
                 margin-top: 90px;
                 margin-left: auto;
                 margin-right: auto;
-                border-radius: 3px;
-                width: 220px;
-                height: 60px;
-                padding-top: 17px;
-                font-size: 1.7em;
+                font-size: 45px;
                 font-weight: 700;
                 color: $grey-dark;
-                background-color: white;
             }
         }
-        @include media($mobile) {
-            .hover-content{
-                text-align: center;
-                display: inline;
-                position: absolute;
-                height: 100%;
-                width: 100%;
-                top: 0;
-                left: 0;
-                background-color: rgba(0, 0, 0, .5);
-                .hover-link{
-                    color: $zach-blue;
-                }
-            }
-        }
-        a{
-            text-decoration: none;
-        }
+    }
+    .box_wrap:nth-child(odd) .box{
+        margin-right: 0;
     }
     .box:hover{
         text-align: center;
@@ -78,14 +49,11 @@
             width: 100%;
             top: 0;
             left: 0;
-            background-color: rgba(0, 0, 0, .5);
-        }
-        .hover-link:hover{
-            color: $zach-blue;        
+            background-color: rgba(255, 255, 255, .7);
         }
     }
     #inspiration-box{
-        background-image: url('../images/8.jpg');
+        background-image: url('../images/inspiration.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
