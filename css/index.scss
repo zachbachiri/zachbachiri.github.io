@@ -6,9 +6,6 @@
     margin-bottom: 100px;
     .about_header{
         margin-bottom: 50px;
-        @include media($mobile) {
-            text-align: right;
-        }
     }
     .about_wrap{
         width: 100%;
