@@ -210,15 +210,21 @@ html, body {
       border-radius: 50%;
       float: right; }
     .index .content .about_wrap .about_title {
-      color: #3c3c3c; }
+      color: #3c3c3c;
+      font-size: 24px; }
     .index .content .about_wrap p {
       font-size: 24px;
       line-height: 35px;
       color: #808080; }
-    .index .content .about_wrap ul {
-      padding-left: 20px; }
-      .index .content .about_wrap ul li {
-        font-size: 20px;
-        margin-bottom: 10px; }
-        .index .content .about_wrap ul li a {
-          font-size: 20px; }
+    .index .content .about_wrap .recommendation {
+      width: 44%;
+      margin-right: 5%;
+      margin-bottom: 50px;
+      float: left; }
+      .index .content .about_wrap .recommendation ul {
+        padding-left: 20px; }
+        .index .content .about_wrap .recommendation ul li {
+          font-size: 20px;
+          margin-bottom: 10px; }
+          .index .content .about_wrap .recommendation ul li a {
+            font-size: 20px; }
