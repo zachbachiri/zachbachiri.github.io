@@ -132,6 +132,8 @@ html, body {
   margin-bottom: 10px; }
   .inspiration .content_wrap .item img {
     width: 100%; }
+.inspiration .content_wrap .content {
+  margin-bottom: 150px; }
 
 .index .content {
   margin-bottom: 100px;
