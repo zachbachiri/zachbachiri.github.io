@@ -9,7 +9,8 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  font: 10pt Lato, sans-serif; }
+  font: 10pt Lato, sans-serif;
+  color: #3c3c3c; }
   html a, body a {
     text-decoration: none;
     color: #ec407a; }
@@ -78,8 +79,13 @@ html, body {
     margin-right: auto;
     max-width: 1000px; }
     .content_wrap .content h1 {
-      font-size: 5em;
+      font-size: 6em;
       margin: 50px 0 60px 0; }
+  .content_wrap .content:after {
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; }
 
 .content_wrap:after {
   visibility: hidden;
@@ -105,19 +111,19 @@ html, body {
     font-size: 20px;
     font-weight: 300; }
 
+.clearfix {
+  height: 0;
+  display: block;
+  clear: both; }
+
 .inspiration .content_wrap .item {
   width: 32%;
   margin-bottom: 10px; }
   .inspiration .content_wrap .item img {
     width: 100%; }
 
-.about .content_wrap .content {
-  margin-bottom: 100px; }
-  .about .content_wrap .content .portrait {
-    width: 32%;
-    border-radius: 50%; }
-
-.index .content_wrap {
+.index .content {
+  margin-bottom: 100px;
   /*
   .about{
       font-size: 20px;
@@ -182,8 +188,29 @@ html, body {
       background-position: center;
   }
   */ }
-  .index .content_wrap .about_header {
+  .index .content .about_header {
     margin-bottom: 50px; }
     @media screen and (max-width: 800px) {
-      .index .content_wrap .about_header {
+      .index .content .about_header {
         text-align: right; } }
+  .index .content .about_wrap {
+    width: 100%; }
+    .index .content .about_wrap .portrait {
+      width: 32%;
+      margin-left: 25px;
+      margin-bottom: 25px;
+      border-radius: 50%;
+      float: right; }
+    .index .content .about_wrap .about_title {
+      color: #3c3c3c; }
+    .index .content .about_wrap p {
+      font-size: 24px;
+      line-height: 35px;
+      color: #808080; }
+    .index .content .about_wrap ul {
+      padding-left: 20px; }
+      .index .content .about_wrap ul li {
+        font-size: 20px;
+        margin-bottom: 10px; }
+        .index .content .about_wrap ul li a {
+          font-size: 20px; }

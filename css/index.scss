@@ -1,19 +1,44 @@
 @import "header.scss";
 @import "inspiration.scss";
-@import "about.scss";
 
 
-.index .content_wrap{
-
+.index .content{
+    margin-bottom: 100px;
     .about_header{
         margin-bottom: 50px;
         @include media($mobile) {
             text-align: right;
         }
     }
+    .about_wrap{
+        width: 100%;
+        .portrait{
+            width: 32%;
+            margin-left: 25px;
+            margin-bottom: 25px;
+            border-radius: 50%;
+            float: right;
+        }
+        .about_title{
+            color: $grey-dark;
+        }
+        p{
+            font-size: 24px;
+            line-height: 35px;
+            color: #808080;
+        }
+        ul{
+            padding-left: 20px;
+            li{
+                font-size: 20px; 
+                margin-bottom: 10px;
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
 
-
-    
     /*
     .about{
         font-size: 20px;
