@@ -197,8 +197,8 @@ html, body {
     width: 100%; }
     .index .content .about_wrap .portrait {
       width: 32%;
-      margin-left: 25px;
-      margin-bottom: 25px;
+      margin-left: 50px;
+      margin-bottom: 50px;
       border-radius: 50%;
       float: right; }
     .index .content .about_wrap .about_title {
