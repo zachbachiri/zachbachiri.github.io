@@ -91,7 +91,8 @@ html, body {
     max-width: 1000px; }
     .content_wrap .content h1 {
       font-size: 6em;
-      margin: 50px 0 60px 0; }
+      margin: 50px 0 60px 0;
+      font-weight: 400; }
   .content_wrap .content:after {
     visibility: hidden;
     display: block;
@@ -204,7 +205,8 @@ html, body {
   .index .content .about_header {
     margin-bottom: 50px; }
   .index .content .about_wrap {
-    width: 100%; }
+    width: 100%;
+    font-weight: 300; }
     .index .content .about_wrap .portrait {
       width: 32%;
       margin-left: 50px;
