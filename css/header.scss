@@ -10,7 +10,7 @@ $light-grey: #f0f0f0;
 $zach-pink: #ec407a;
 $zach-green: #1de9b6;
 $footer-height: 160px;
-$content-width: 1000px;
+$content-width: 875px;
 
 html, body {
     margin: 0;
@@ -46,7 +46,7 @@ html, body {
     .header{ 
         color: $grey-dark;
         font-weight: 700;
-        height: 90px;
+        height: 80px;
         @include media($mobile) {
            height: 300px;
         }
@@ -54,17 +54,17 @@ html, body {
             width: auto;
             height: auto;
             display: inline-block;
-            padding-top: 17px;
+            padding-top: 15px;
             img{
                 display: block;
-                height: 50px;
+                height: 45px;
             }
             @include media($mobile) {
                padding-left: 35px;
             }
         }
         ul{
-            padding-top: 19px;
+            padding-top: 13px;
             display: inline-block;
             float: right;
             list-style-type: none;
