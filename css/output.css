@@ -227,7 +227,8 @@ html, body {
       margin-bottom: 30px;
       float: left; }
       .index .content .about_wrap .recommendation p {
-        margin-bottom: 15px; }
+        margin-bottom: 15px;
+        margin-top: 0; }
       .index .content .about_wrap .recommendation ul {
         font-weight: 300;
         padding-left: 20px; }
