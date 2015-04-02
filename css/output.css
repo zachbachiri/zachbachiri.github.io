@@ -23,6 +23,11 @@ html, body {
     max-width: 875px;
     margin-left: auto;
     margin-right: auto; }
+  html p, body p {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 50px;
+    font-weight: 300; }
 
 .header_wrap {
   background-color: #f0f0f0;
@@ -90,7 +95,7 @@ html, body {
     margin-right: auto;
     max-width: 875px; }
     .content_wrap .content h1 {
-      font-size: 6em;
+      font-size: 4.2em;
       margin: 50px 0 60px 0;
       font-weight: 400; }
   .content_wrap .content:after {
@@ -219,7 +224,6 @@ html, body {
     .index .content .about_wrap p {
       font-size: 22px;
       line-height: 32px;
-      color: #808080;
       margin-bottom: 50px; }
     .index .content .about_wrap .recommendation {
       width: 44%;
