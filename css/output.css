@@ -13,7 +13,8 @@ html, body {
   color: #3c3c3c; }
   html a, body a {
     text-decoration: none;
-    color: #ec407a; }
+    color: #ec407a;
+    transition: .07s; }
   html a:hover, body a:hover {
     color: #1de9b6; }
   html .page_wrap, body .page_wrap {
@@ -24,8 +25,8 @@ html, body {
     margin-left: auto;
     margin-right: auto; }
   html p, body p {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 30px;
     margin-bottom: 50px;
     font-weight: 300; }
 
@@ -64,7 +65,7 @@ html, body {
       .header_wrap .header ul li {
         margin-left: 0;
         display: inline;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 300;
         padding-left: 20px; }
         .header_wrap .header ul li a {
@@ -208,28 +209,25 @@ html, body {
   }
   */ }
   .index .content .about_header {
-    margin-bottom: 50px; }
+    margin-bottom: 0; }
   .index .content .about_wrap {
     width: 100%;
     font-weight: 300; }
     .index .content .about_wrap .portrait {
       width: 32%;
-      margin-left: 50px;
+      margin-left: 60px;
       margin-bottom: 50px;
-      border-radius: 50%;
       float: right; }
     .index .content .about_wrap .about_title {
       color: #3c3c3c;
-      font-size: 24px; }
-    .index .content .about_wrap p {
-      font-size: 22px;
-      line-height: 32px;
-      margin-bottom: 50px; }
+      font-size: 22px; }
     .index .content .about_wrap .recommendation {
       width: 44%;
       margin-right: 5%;
       margin-bottom: 30px;
-      float: left; }
+      margin-top: 25px;
+      display: inline-block;
+      vertical-align: top; }
       .index .content .about_wrap .recommendation p {
         margin-bottom: 15px;
         margin-top: 0; }
@@ -237,7 +235,7 @@ html, body {
         font-weight: 300;
         padding-left: 20px; }
         .index .content .about_wrap .recommendation ul li {
-          font-size: 20px;
+          font-size: 18px;
           margin-bottom: 10px; }
           .index .content .about_wrap .recommendation ul li a {
-            font-size: 20px; }
+            font-size: 18px; }
