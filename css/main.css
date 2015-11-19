@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lora:700);
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: "Lato", Arial, sens-serif;
+  color: #222222; }
+  body a, html a {
+    text-decoration: none;
+    color: #222222; }
+  body .container, html .container {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto; }
+  body #page_wrap, html #page_wrap {
+    position: relative;
+    min-height: 100%; }
+    body #page_wrap #header_wrap, html #page_wrap #header_wrap {
+      background-color: #f7f7f7;
+      height: 65px;
+      padding-top: 20px; }
+      body #page_wrap #header_wrap h1, html #page_wrap #header_wrap h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #f2655a;
+        margin: 0;
+        display: inline-block; }
+      body #page_wrap #header_wrap ul, html #page_wrap #header_wrap ul {
+        display: inline;
+        float: right;
+        margin: 1rem 0 0 0; }
+        body #page_wrap #header_wrap ul li, html #page_wrap #header_wrap ul li {
+          display: inline;
+          margin-left: 2rem; }
+          body #page_wrap #header_wrap ul li a, html #page_wrap #header_wrap ul li a {
+            font-size: 1.2rem; }
+          body #page_wrap #header_wrap ul li a:hover, html #page_wrap #header_wrap ul li a:hover {
+            color: #f2655a; }
+    body #page_wrap #home_header_wrap, html #page_wrap #home_header_wrap {
+      background-color: #f7f7f7; }
+      body #page_wrap #home_header_wrap #home_header, html #page_wrap #home_header_wrap #home_header {
+        padding: 7rem 0; }
+        body #page_wrap #home_header_wrap #home_header h1, html #page_wrap #home_header_wrap #home_header h1 {
+          font-size: 5em;
+          font-weight: 700;
+          color: #f2655a;
+          margin-top: -0.1rem;
+          margin-bottom: 0.1rem; }
+        body #page_wrap #home_header_wrap #home_header p, html #page_wrap #home_header_wrap #home_header p {
+          font-size: 1.7rem;
+          margin: 0 0 4rem 0; }
+        body #page_wrap #home_header_wrap #home_header a, html #page_wrap #home_header_wrap #home_header a {
+          font-size: 1.2rem;
+          margin-right: 2rem;
+          margin-left: 2rem; }
+        body #page_wrap #home_header_wrap #home_header a:hover, html #page_wrap #home_header_wrap #home_header a:hover {
+          color: #f2655a; }
+    body #page_wrap #work_wrap, html #page_wrap #work_wrap {
+      padding-top: 2rem;
+      padding-bottom: 5rem; }
+      body #page_wrap #work_wrap h2, html #page_wrap #work_wrap h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem; }
+      body #page_wrap #work_wrap #work_list, html #page_wrap #work_wrap #work_list {
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+        body #page_wrap #work_wrap #work_list li, html #page_wrap #work_wrap #work_list li {
+          display: inline-block;
+          width: 30%;
+          margin-right: 4%;
+          margin-bottom: 2rem; }
+          body #page_wrap #work_wrap #work_list li .image_wrap img, html #page_wrap #work_wrap #work_list li .image_wrap img {
+            width: 100%; }
+          body #page_wrap #work_wrap #work_list li h3, html #page_wrap #work_wrap #work_list li h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 0.4rem;
+            margin-bottom: 0; }
+          body #page_wrap #work_wrap #work_list li p, html #page_wrap #work_wrap #work_list li p {
+            margin-top: 0.4rem; }
+        body #page_wrap #work_wrap #work_list li:nth-child(3n+3), html #page_wrap #work_wrap #work_list li:nth-child(3n+3) {
+          margin-right: 0; }
+    body #page_wrap #about_wrap, html #page_wrap #about_wrap {
+      padding-top: 5rem;
+      padding-bottom: 5rem; }
+      body #page_wrap #about_wrap #headshot, html #page_wrap #about_wrap #headshot {
+        float: left;
+        width: 35%;
+        padding-right: 10%; }
+        body #page_wrap #about_wrap #headshot img, html #page_wrap #about_wrap #headshot img {
+          width: 100%;
+          border-radius: 50%; }
+      body #page_wrap #about_wrap #description, html #page_wrap #about_wrap #description {
+        float: left;
+        width: 54%; }
+        body #page_wrap #about_wrap #description p, html #page_wrap #about_wrap #description p {
+          font-size: 1.2rem;
+          font-weight: 400;
+          line-height: 2.1rem; }
+          body #page_wrap #about_wrap #description p a, html #page_wrap #about_wrap #description p a {
+            color: #f2655a; }
+          body #page_wrap #about_wrap #description p a:hover, html #page_wrap #about_wrap #description p a:hover {
+            color: #bf504b; }
+        body #page_wrap #about_wrap #description h4, html #page_wrap #about_wrap #description h4 {
+          font-size: 1.5rem;
+          margin-bottom: 0.5rem; }
+        body #page_wrap #about_wrap #description ul, html #page_wrap #about_wrap #description ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          font-size: 1.2rem; }
+          body #page_wrap #about_wrap #description ul li, html #page_wrap #about_wrap #description ul li {
+            margin-top: 0.5rem; }
+          body #page_wrap #about_wrap #description ul a, html #page_wrap #about_wrap #description ul a {
+            color: #f2655a; }
+          body #page_wrap #about_wrap #description ul a:hover, html #page_wrap #about_wrap #description ul a:hover {
+            color: #bf504b; }
+          body #page_wrap #about_wrap #description ul #resume, html #page_wrap #about_wrap #description ul #resume {
+            margin-top: 1.5rem; }
+    body #page_wrap #about_wrap:after, html #page_wrap #about_wrap:after {
+      clear: both;
+      content: "";
+      display: block; }
+    body #page_wrap #footer_wrap, html #page_wrap #footer_wrap {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      background-color: #f7f7f7; }
