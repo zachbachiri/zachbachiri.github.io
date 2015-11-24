@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic,900,900italic)
+@import url(https://fonts.googleapis.com/css?family=Lora:700)
+$red: #f2655a
+$black: #333
+$dark_red: #bf504b
+$mobile: 700px
+
+body,html
+    width: 100%
+    height: 100%
+    margin: 0
+    padding: 0
+    font-size: 12px
+    font-family: 'Lato', Arial, sens-serif
+    color: $black
+    a 
+        text-decoration: none
+        color: $black
+        transition: color 0.15s ease
+    .container
+        max-width: 950px
+        margin-left: auto 
+        margin-right: auto
+        @media (max-width: $mobile)
+            padding: 0 2rem
+    #page_wrap
+        position: relative
+        min-height: 100%
+        #header_wrap
+            background-color: #f0f0f0
+            height: 65px
+            padding-top: 20px
+            h1
+                font-size: 3rem
+                font-weight: 700
+                color: $red
+                margin: 0
+                display: inline-block
+            ul 
+                display: inline
+                float: right
+                margin: 1rem 0 0 0
+                li
+                    display: inline
+                    margin-left: 2rem
+                    a
+                        font-size: 1.2rem
+                    a:hover
+                        color: $red
+            @media (max-width: $mobile)
+                height: 100px
+                ul 
+                    display: block
+                    float: none
+                    padding: 0
+                    li 
+                        margin-right: 2rem 
+                        margin-left: 0
+        #home_header_wrap
+            background-color: #f0f0f0
+            #home_header
+                padding: 7rem 0
+                h1
+                    font-size: 5em
+                    font-weight: 700
+                    color: $red
+                    margin-top: -.1rem
+                    margin-bottom: .1rem
+                p
+                    font-size: 1.7rem
+                    margin: 0 0 4rem 0
+                a 
+                    font-size: 1.2rem
+                    margin-right: 2rem
+                    margin-left: 2rem
+                    transition: color 0.15s ease
+                a:hover
+                    color: $red
+                @media (max-width: $mobile)
+                    padding: 7rem 2rem
+        #work_wrap
+            padding-top: 2rem
+            padding-bottom: 5rem
+            h2
+                font-size: 2.5rem
+                margin-bottom: 1rem
+            #work_list
+                list-style: none
+                margin: 0
+                padding: 0
+                li
+                    display: inline-block
+                    vertical-align: top
+                    width: 30%
+                    margin-right: 4%
+                    margin-bottom: 2rem
+                    @media (max-width: $mobile)
+                        width: 100%
+                        margin-right: 0
+                    .image_wrap
+                        position: relative
+                        img
+                            width: 100%
+                    .image_wrap:hover .hover_box
+                        position: absolute
+                        background-color: rgba(255,255,255,.3)
+                        top: 0
+                        bottom: 0
+                        right: 0
+                        left: 0
+                        transition: background-color 0.3s ease
+                    h3
+                        font-size: 1.5rem
+                        font-weight: 700
+                        margin-top: .4rem
+                        margin-bottom: 0
+                        transition: color 0.25s ease
+                    h3:hover
+                        color: $red
+                    p
+                        margin-top: .4rem
+                        margin-bottom: 0
+                        height: 3rem
+                li:nth-child(3n+3)
+                    margin-right: 0
+        #about_wrap
+            padding-top: 5rem
+            padding-bottom: 10rem
+            #headshot
+                float: left
+                width: 35%
+                padding-right: 10%
+                img 
+                    width: 100%
+                    border-radius: 50%
+                @media (max-width: $mobile)
+                    width: 100%
+                    float: none
+                    padding: 0
+            #description
+                float: left
+                width: 54%
+                @media (max-width: $mobile)
+                    width: 100%
+                    float: none
+                    padding: 0
+                p
+                    font-size: 1.2rem
+                    font-weight: 400
+                    line-height: 2.1rem
+                    a 
+                        color: $red
+                    a:hover
+                        color: $dark_red
+                h4
+                    font-size: 1.5rem
+                    margin-bottom: .5rem
+                ul 
+                    margin: 0
+                    padding: 0
+                    list-style: none
+                    font-size: 1.2rem
+                    li 
+                        margin-top: .5rem
+                    a
+                        color: $red
+                    a:hover
+                        color: $dark_red
+                    #resume
+                        margin-top: 1.5rem
+        #about_wrap:after
+            clear: both
+            content: ""
+            display: block
+        .detail_page
+            padding-bottom: 100px
+            a
+                color: $red
+            a:hover
+                color: $dark_red
+            .title_section
+                margin-bottom: 5rem
+                .project_title
+                    font-size: 6rem
+                    margin-bottom: 1rem
+                    //border-top: 1px solid #333
+                .project_categorizations
+                    list-style: none
+                    margin: 0
+                    padding: 0
+                    li 
+                        font-size: 1.2rem
+                        display: inline
+                        color: #a0a0a0
+                        margin-right: 1.5rem
+            p
+                font-size: 1.1rem
+                max-width: 375px
+                line-height: 1.8rem
+                margin-top: 2rem
+                margin-bottom: 3rem
+            .portfolio_image
+                display: inline-block
+                vertical-align: top
+                margin-bottom: 3rem
+                img 
+                    box-shadow: 1px 1px 2px #d0d0d0
+                    width: 100%
+                .caption 
+                    font-size: 1rem
+                    font-weight: 700
+                    margin-top: .5rem
+                    display: block
+            .portfolio_image.third
+                width: 30%
+                margin-right: 2%
+            .portfolio_image.half
+                width: 46%
+                margin-right: 3%
+            .portfolio_image.full
+                width: 98%
+                margin-right: 1%
+            .portfolio_image.three_quarters
+                width: 75%
+                margin-right: 5%
+
+        #footer_wrap
+            position: absolute
+            bottom: 0
+            left: 0
+            right: 0
+            height: 50px
+            background-color: #f0f0f0
+            .container
+                padding-top: 1.5rem
+

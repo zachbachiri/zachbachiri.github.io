@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lora:700);
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: "Lato", Arial, sens-serif;
+  color: #333; }
+  body a, html a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.15s ease; }
+  body .container, html .container {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (max-width: 700px) {
+      body .container, html .container {
+        padding: 0 2rem; } }
+  body #page_wrap, html #page_wrap {
+    position: relative;
+    min-height: 100%; }
+    body #page_wrap #header_wrap, html #page_wrap #header_wrap {
+      background-color: #f0f0f0;
+      height: 65px;
+      padding-top: 20px; }
+      body #page_wrap #header_wrap h1, html #page_wrap #header_wrap h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #f2655a;
+        margin: 0;
+        display: inline-block; }
+      body #page_wrap #header_wrap ul, html #page_wrap #header_wrap ul {
+        display: inline;
+        float: right;
+        margin: 1rem 0 0 0; }
+        body #page_wrap #header_wrap ul li, html #page_wrap #header_wrap ul li {
+          display: inline;
+          margin-left: 2rem; }
+          body #page_wrap #header_wrap ul li a, html #page_wrap #header_wrap ul li a {
+            font-size: 1.2rem; }
+          body #page_wrap #header_wrap ul li a:hover, html #page_wrap #header_wrap ul li a:hover {
+            color: #f2655a; }
+      @media (max-width: 700px) {
+        body #page_wrap #header_wrap, html #page_wrap #header_wrap {
+          height: 100px; }
+          body #page_wrap #header_wrap ul, html #page_wrap #header_wrap ul {
+            display: block;
+            float: none;
+            padding: 0; }
+            body #page_wrap #header_wrap ul li, html #page_wrap #header_wrap ul li {
+              margin-right: 2rem;
+              margin-left: 0; } }
+    body #page_wrap #home_header_wrap, html #page_wrap #home_header_wrap {
+      background-color: #f0f0f0; }
+      body #page_wrap #home_header_wrap #home_header, html #page_wrap #home_header_wrap #home_header {
+        padding: 7rem 0; }
+        body #page_wrap #home_header_wrap #home_header h1, html #page_wrap #home_header_wrap #home_header h1 {
+          font-size: 5em;
+          font-weight: 700;
+          color: #f2655a;
+          margin-top: -0.1rem;
+          margin-bottom: 0.1rem; }
+        body #page_wrap #home_header_wrap #home_header p, html #page_wrap #home_header_wrap #home_header p {
+          font-size: 1.7rem;
+          margin: 0 0 4rem 0; }
+        body #page_wrap #home_header_wrap #home_header a, html #page_wrap #home_header_wrap #home_header a {
+          font-size: 1.2rem;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          transition: color 0.15s ease; }
+        body #page_wrap #home_header_wrap #home_header a:hover, html #page_wrap #home_header_wrap #home_header a:hover {
+          color: #f2655a; }
+        @media (max-width: 700px) {
+          body #page_wrap #home_header_wrap #home_header, html #page_wrap #home_header_wrap #home_header {
+            padding: 7rem 2rem; } }
+    body #page_wrap #work_wrap, html #page_wrap #work_wrap {
+      padding-top: 2rem;
+      padding-bottom: 5rem; }
+      body #page_wrap #work_wrap h2, html #page_wrap #work_wrap h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem; }
+      body #page_wrap #work_wrap #work_list, html #page_wrap #work_wrap #work_list {
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+        body #page_wrap #work_wrap #work_list li, html #page_wrap #work_wrap #work_list li {
+          display: inline-block;
+          vertical-align: top;
+          width: 30%;
+          margin-right: 4%;
+          margin-bottom: 2rem; }
+          @media (max-width: 700px) {
+            body #page_wrap #work_wrap #work_list li, html #page_wrap #work_wrap #work_list li {
+              width: 100%;
+              margin-right: 0; } }
+          body #page_wrap #work_wrap #work_list li .image_wrap, html #page_wrap #work_wrap #work_list li .image_wrap {
+            position: relative; }
+            body #page_wrap #work_wrap #work_list li .image_wrap img, html #page_wrap #work_wrap #work_list li .image_wrap img {
+              width: 100%; }
+          body #page_wrap #work_wrap #work_list li .image_wrap:hover .hover_box, html #page_wrap #work_wrap #work_list li .image_wrap:hover .hover_box {
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.3);
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            transition: background-color 0.3s ease; }
+          body #page_wrap #work_wrap #work_list li h3, html #page_wrap #work_wrap #work_list li h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 0.4rem;
+            margin-bottom: 0;
+            transition: color 0.25s ease; }
+          body #page_wrap #work_wrap #work_list li h3:hover, html #page_wrap #work_wrap #work_list li h3:hover {
+            color: #f2655a; }
+          body #page_wrap #work_wrap #work_list li p, html #page_wrap #work_wrap #work_list li p {
+            margin-top: 0.4rem;
+            margin-bottom: 0;
+            height: 3rem; }
+        body #page_wrap #work_wrap #work_list li:nth-child(3n+3), html #page_wrap #work_wrap #work_list li:nth-child(3n+3) {
+          margin-right: 0; }
+    body #page_wrap #about_wrap, html #page_wrap #about_wrap {
+      padding-top: 5rem;
+      padding-bottom: 10rem; }
+      body #page_wrap #about_wrap #headshot, html #page_wrap #about_wrap #headshot {
+        float: left;
+        width: 35%;
+        padding-right: 10%; }
+        body #page_wrap #about_wrap #headshot img, html #page_wrap #about_wrap #headshot img {
+          width: 100%;
+          border-radius: 50%; }
+        @media (max-width: 700px) {
+          body #page_wrap #about_wrap #headshot, html #page_wrap #about_wrap #headshot {
+            width: 100%;
+            float: none;
+            padding: 0; } }
+      body #page_wrap #about_wrap #description, html #page_wrap #about_wrap #description {
+        float: left;
+        width: 54%; }
+        @media (max-width: 700px) {
+          body #page_wrap #about_wrap #description, html #page_wrap #about_wrap #description {
+            width: 100%;
+            float: none;
+            padding: 0; } }
+        body #page_wrap #about_wrap #description p, html #page_wrap #about_wrap #description p {
+          font-size: 1.2rem;
+          font-weight: 400;
+          line-height: 2.1rem; }
+          body #page_wrap #about_wrap #description p a, html #page_wrap #about_wrap #description p a {
+            color: #f2655a; }
+          body #page_wrap #about_wrap #description p a:hover, html #page_wrap #about_wrap #description p a:hover {
+            color: #bf504b; }
+        body #page_wrap #about_wrap #description h4, html #page_wrap #about_wrap #description h4 {
+          font-size: 1.5rem;
+          margin-bottom: 0.5rem; }
+        body #page_wrap #about_wrap #description ul, html #page_wrap #about_wrap #description ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          font-size: 1.2rem; }
+          body #page_wrap #about_wrap #description ul li, html #page_wrap #about_wrap #description ul li {
+            margin-top: 0.5rem; }
+          body #page_wrap #about_wrap #description ul a, html #page_wrap #about_wrap #description ul a {
+            color: #f2655a; }
+          body #page_wrap #about_wrap #description ul a:hover, html #page_wrap #about_wrap #description ul a:hover {
+            color: #bf504b; }
+          body #page_wrap #about_wrap #description ul #resume, html #page_wrap #about_wrap #description ul #resume {
+            margin-top: 1.5rem; }
+    body #page_wrap #about_wrap:after, html #page_wrap #about_wrap:after {
+      clear: both;
+      content: "";
+      display: block; }
+    body #page_wrap .detail_page, html #page_wrap .detail_page {
+      padding-bottom: 100px; }
+      body #page_wrap .detail_page a, html #page_wrap .detail_page a {
+        color: #f2655a; }
+      body #page_wrap .detail_page a:hover, html #page_wrap .detail_page a:hover {
+        color: #bf504b; }
+      body #page_wrap .detail_page .title_section, html #page_wrap .detail_page .title_section {
+        margin-bottom: 5rem; }
+        body #page_wrap .detail_page .title_section .project_title, html #page_wrap .detail_page .title_section .project_title {
+          font-size: 6rem;
+          margin-bottom: 1rem; }
+        body #page_wrap .detail_page .title_section .project_categorizations, html #page_wrap .detail_page .title_section .project_categorizations {
+          list-style: none;
+          margin: 0;
+          padding: 0; }
+          body #page_wrap .detail_page .title_section .project_categorizations li, html #page_wrap .detail_page .title_section .project_categorizations li {
+            font-size: 1.2rem;
+            display: inline;
+            color: #a0a0a0;
+            margin-right: 1.5rem; }
+      body #page_wrap .detail_page p, html #page_wrap .detail_page p {
+        font-size: 1.1rem;
+        max-width: 375px;
+        line-height: 1.8rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem; }
+      body #page_wrap .detail_page .portfolio_image, html #page_wrap .detail_page .portfolio_image {
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 3rem; }
+        body #page_wrap .detail_page .portfolio_image img, html #page_wrap .detail_page .portfolio_image img {
+          box-shadow: 1px 1px 2px #d0d0d0;
+          width: 100%; }
+        body #page_wrap .detail_page .portfolio_image .caption, html #page_wrap .detail_page .portfolio_image .caption {
+          font-size: 1rem;
+          font-weight: 700;
+          margin-top: 0.5rem;
+          display: block; }
+      body #page_wrap .detail_page .portfolio_image.third, html #page_wrap .detail_page .portfolio_image.third {
+        width: 30%;
+        margin-right: 2%; }
+      body #page_wrap .detail_page .portfolio_image.half, html #page_wrap .detail_page .portfolio_image.half {
+        width: 46%;
+        margin-right: 3%; }
+      body #page_wrap .detail_page .portfolio_image.full, html #page_wrap .detail_page .portfolio_image.full {
+        width: 98%;
+        margin-right: 1%; }
+      body #page_wrap .detail_page .portfolio_image.three_quarters, html #page_wrap .detail_page .portfolio_image.three_quarters {
+        width: 75%;
+        margin-right: 5%; }
+    body #page_wrap #footer_wrap, html #page_wrap #footer_wrap {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      background-color: #f0f0f0; }
+      body #page_wrap #footer_wrap .container, html #page_wrap #footer_wrap .container {
+        padding-top: 1.5rem; }
