@@ -120,7 +120,7 @@ body, html {
           margin-right: 0; }
     body #page_wrap #about_wrap, html #page_wrap #about_wrap {
       padding-top: 5rem;
-      padding-bottom: 5rem; }
+      padding-bottom: 10rem; }
       body #page_wrap #about_wrap #headshot, html #page_wrap #about_wrap #headshot {
         float: left;
         width: 35%;
