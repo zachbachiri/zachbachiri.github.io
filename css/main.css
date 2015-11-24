@@ -10,7 +10,8 @@ body, html {
   color: #333; }
   body a, html a {
     text-decoration: none;
-    color: #333; }
+    color: #333;
+    transition: color 0.15s ease; }
   body .container, html .container {
     max-width: 950px;
     margin-left: auto;
@@ -68,7 +69,8 @@ body, html {
         body #page_wrap #home_header_wrap #home_header a, html #page_wrap #home_header_wrap #home_header a {
           font-size: 1.2rem;
           margin-right: 2rem;
-          margin-left: 2rem; }
+          margin-left: 2rem;
+          transition: color 0.15s ease; }
         body #page_wrap #home_header_wrap #home_header a:hover, html #page_wrap #home_header_wrap #home_header a:hover {
           color: #f2655a; }
         @media (max-width: 700px) {
@@ -104,12 +106,14 @@ body, html {
             top: 0;
             bottom: 0;
             right: 0;
-            left: 0; }
+            left: 0;
+            transition: background-color 0.3s ease; }
           body #page_wrap #work_wrap #work_list li h3, html #page_wrap #work_wrap #work_list li h3 {
             font-size: 1.5rem;
             font-weight: 700;
             margin-top: 0.4rem;
-            margin-bottom: 0; }
+            margin-bottom: 0;
+            transition: color 0.25s ease; }
           body #page_wrap #work_wrap #work_list li h3:hover, html #page_wrap #work_wrap #work_list li h3:hover {
             color: #f2655a; }
           body #page_wrap #work_wrap #work_list li p, html #page_wrap #work_wrap #work_list li p {
