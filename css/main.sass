@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic,900,900italic)
 @import url(https://fonts.googleapis.com/css?family=Lora:700)
 $red: #f2655a
-$black: #222222
+$black: #333
 $dark_red: #bf504b
 
 body,html
@@ -74,6 +74,7 @@ body,html
                 padding: 0
                 li
                     display: inline-block
+                    vertical-align: top
                     width: 30%
                     margin-right: 4%
                     margin-bottom: 2rem
@@ -142,6 +143,58 @@ body,html
             clear: both
             content: ""
             display: block
+        .detail_page
+            padding-bottom: 100px
+            a
+                color: $red
+            a:hover
+                color: $dark_red
+            .title_section
+                margin-bottom: 5rem
+                .project_title
+                    font-size: 6rem
+                    margin-bottom: 1rem
+                    //border-top: 1px solid #333
+                .project_categorizations
+                    list-style: none
+                    margin: 0
+                    padding: 0
+                    li 
+                        font-size: 1.2rem
+                        display: inline
+                        color: #a0a0a0
+                        margin-right: 1.5rem
+            p
+                font-size: 1.1rem
+                max-width: 375px
+                line-height: 1.8rem
+                margin-top: 2rem
+                margin-bottom: 3rem
+            .portfolio_image
+                display: inline-block
+                vertical-align: top
+                margin-bottom: 3rem
+                img 
+                    box-shadow: 1px 1px 2px #d0d0d0
+                    width: 100%
+                .caption 
+                    font-size: 1rem
+                    font-weight: 700
+                    margin-top: .5rem
+                    display: block
+            .portfolio_image.third
+                width: 30%
+                margin-right: 2%
+            .portfolio_image.half
+                width: 46%
+                margin-right: 3%
+            .portfolio_image.full
+                width: 98%
+                margin-right: 1%
+            .portfolio_image.three_quarters
+                width: 75%
+                margin-right: 5%
+
         #footer_wrap
             position: absolute
             bottom: 0
