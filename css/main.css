@@ -15,6 +15,9 @@ body, html {
     max-width: 950px;
     margin-left: auto;
     margin-right: auto; }
+    @media (max-width: 700px) {
+      body .container, html .container {
+        padding: 0 2rem; } }
   body #page_wrap, html #page_wrap {
     position: relative;
     min-height: 100%; }
@@ -39,6 +42,16 @@ body, html {
             font-size: 1.2rem; }
           body #page_wrap #header_wrap ul li a:hover, html #page_wrap #header_wrap ul li a:hover {
             color: #f2655a; }
+      @media (max-width: 700px) {
+        body #page_wrap #header_wrap, html #page_wrap #header_wrap {
+          height: 100px; }
+          body #page_wrap #header_wrap ul, html #page_wrap #header_wrap ul {
+            display: block;
+            float: none;
+            padding: 0; }
+            body #page_wrap #header_wrap ul li, html #page_wrap #header_wrap ul li {
+              margin-right: 2rem;
+              margin-left: 0; } }
     body #page_wrap #home_header_wrap, html #page_wrap #home_header_wrap {
       background-color: #f0f0f0; }
       body #page_wrap #home_header_wrap #home_header, html #page_wrap #home_header_wrap #home_header {
@@ -58,6 +71,9 @@ body, html {
           margin-left: 2rem; }
         body #page_wrap #home_header_wrap #home_header a:hover, html #page_wrap #home_header_wrap #home_header a:hover {
           color: #f2655a; }
+        @media (max-width: 700px) {
+          body #page_wrap #home_header_wrap #home_header, html #page_wrap #home_header_wrap #home_header {
+            padding: 7rem 2rem; } }
     body #page_wrap #work_wrap, html #page_wrap #work_wrap {
       padding-top: 2rem;
       padding-bottom: 5rem; }
@@ -74,6 +90,10 @@ body, html {
           width: 30%;
           margin-right: 4%;
           margin-bottom: 2rem; }
+          @media (max-width: 700px) {
+            body #page_wrap #work_wrap #work_list li, html #page_wrap #work_wrap #work_list li {
+              width: 100%;
+              margin-right: 0; } }
           body #page_wrap #work_wrap #work_list li .image_wrap, html #page_wrap #work_wrap #work_list li .image_wrap {
             position: relative; }
             body #page_wrap #work_wrap #work_list li .image_wrap img, html #page_wrap #work_wrap #work_list li .image_wrap img {
@@ -108,9 +128,19 @@ body, html {
         body #page_wrap #about_wrap #headshot img, html #page_wrap #about_wrap #headshot img {
           width: 100%;
           border-radius: 50%; }
+        @media (max-width: 700px) {
+          body #page_wrap #about_wrap #headshot, html #page_wrap #about_wrap #headshot {
+            width: 100%;
+            float: none;
+            padding: 0; } }
       body #page_wrap #about_wrap #description, html #page_wrap #about_wrap #description {
         float: left;
         width: 54%; }
+        @media (max-width: 700px) {
+          body #page_wrap #about_wrap #description, html #page_wrap #about_wrap #description {
+            width: 100%;
+            float: none;
+            padding: 0; } }
         body #page_wrap #about_wrap #description p, html #page_wrap #about_wrap #description p {
           font-size: 1.2rem;
           font-weight: 400;

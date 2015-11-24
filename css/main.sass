@@ -3,6 +3,7 @@
 $red: #f2655a
 $black: #333
 $dark_red: #bf504b
+$mobile: 700px
 
 body,html
     width: 100%
@@ -19,6 +20,8 @@ body,html
         max-width: 950px
         margin-left: auto 
         margin-right: auto
+        @media (max-width: $mobile)
+            padding: 0 2rem
     #page_wrap
         position: relative
         min-height: 100%
@@ -43,6 +46,15 @@ body,html
                         font-size: 1.2rem
                     a:hover
                         color: $red
+            @media (max-width: $mobile)
+                height: 100px
+                ul 
+                    display: block
+                    float: none
+                    padding: 0
+                    li 
+                        margin-right: 2rem 
+                        margin-left: 0
         #home_header_wrap
             background-color: #f0f0f0
             #home_header
@@ -62,6 +74,8 @@ body,html
                     margin-left: 2rem
                 a:hover
                     color: $red
+                @media (max-width: $mobile)
+                    padding: 7rem 2rem
         #work_wrap
             padding-top: 2rem
             padding-bottom: 5rem
@@ -78,6 +92,9 @@ body,html
                     width: 30%
                     margin-right: 4%
                     margin-bottom: 2rem
+                    @media (max-width: $mobile)
+                        width: 100%
+                        margin-right: 0
                     .image_wrap
                         position: relative
                         img
@@ -112,9 +129,17 @@ body,html
                 img 
                     width: 100%
                     border-radius: 50%
+                @media (max-width: $mobile)
+                    width: 100%
+                    float: none
+                    padding: 0
             #description
                 float: left
                 width: 54%
+                @media (max-width: $mobile)
+                    width: 100%
+                    float: none
+                    padding: 0
                 p
                     font-size: 1.2rem
                     font-weight: 400
