@@ -23,7 +23,7 @@ body, html {
     position: relative;
     min-height: 100%; }
     body #page_wrap #header_wrap, html #page_wrap #header_wrap {
-      background-color: #f0f0f0;
+      background-color: #f7f7f7;
       height: 65px;
       padding-top: 20px; }
       body #page_wrap #header_wrap h1, html #page_wrap #header_wrap h1 {
@@ -54,7 +54,7 @@ body, html {
               margin-right: 2rem;
               margin-left: 0; } }
     body #page_wrap #home_header_wrap, html #page_wrap #home_header_wrap {
-      background-color: #f0f0f0; }
+      background-color: #f7f7f7; }
       body #page_wrap #home_header_wrap #home_header, html #page_wrap #home_header_wrap #home_header {
         padding: 7rem 0; }
         body #page_wrap #home_header_wrap #home_header h1, html #page_wrap #home_header_wrap #home_header h1 {
@@ -111,7 +111,7 @@ body, html {
           body #page_wrap #work_wrap #work_list li h3, html #page_wrap #work_wrap #work_list li h3 {
             font-size: 1.5rem;
             font-weight: 700;
-            margin-top: 0.4rem;
+            margin-top: 0.5rem;
             margin-bottom: 0;
             transition: color 0.25s ease; }
           body #page_wrap #work_wrap #work_list li h3:hover, html #page_wrap #work_wrap #work_list li h3:hover {
@@ -119,7 +119,13 @@ body, html {
           body #page_wrap #work_wrap #work_list li p, html #page_wrap #work_wrap #work_list li p {
             margin-top: 0.4rem;
             margin-bottom: 0;
-            height: 3rem; }
+            height: 3rem;
+            height: auto; }
+          body #page_wrap #work_wrap #work_list li .date, html #page_wrap #work_wrap #work_list li .date {
+            font-style: italic;
+            color: #a0a0a0;
+            margin-top: 0;
+            font-weight: 300; }
         body #page_wrap #work_wrap #work_list li:nth-child(3n+3), html #page_wrap #work_wrap #work_list li:nth-child(3n+3) {
           margin-right: 0; }
     body #page_wrap #about_wrap, html #page_wrap #about_wrap {
@@ -229,6 +235,6 @@ body, html {
       left: 0;
       right: 0;
       height: 50px;
-      background-color: #f0f0f0; }
+      background-color: #f7f7f7; }
       body #page_wrap #footer_wrap .container, html #page_wrap #footer_wrap .container {
         padding-top: 1.5rem; }
