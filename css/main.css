@@ -29,7 +29,7 @@ body, html {
       body #page_wrap #header_wrap h1, html #page_wrap #header_wrap h1 {
         font-size: 3rem;
         font-weight: 700;
-        color: #f2655a;
+        color: #4DD0E1;
         margin: 0;
         display: inline-block; }
       body #page_wrap #header_wrap ul, html #page_wrap #header_wrap ul {
@@ -42,7 +42,7 @@ body, html {
           body #page_wrap #header_wrap ul li a, html #page_wrap #header_wrap ul li a {
             font-size: 1.2rem; }
           body #page_wrap #header_wrap ul li a:hover, html #page_wrap #header_wrap ul li a:hover {
-            color: #f2655a; }
+            color: #4DD0E1; }
       @media (max-width: 700px) {
         body #page_wrap #header_wrap, html #page_wrap #header_wrap {
           height: 100px; }
@@ -60,7 +60,7 @@ body, html {
         body #page_wrap #home_header_wrap #home_header h1, html #page_wrap #home_header_wrap #home_header h1 {
           font-size: 5em;
           font-weight: 700;
-          color: #f2655a;
+          color: #4DD0E1;
           margin-top: -0.1rem;
           margin-bottom: 0.1rem; }
         body #page_wrap #home_header_wrap #home_header p, html #page_wrap #home_header_wrap #home_header p {
@@ -72,7 +72,7 @@ body, html {
           margin-left: 2rem;
           transition: color 0.15s ease; }
         body #page_wrap #home_header_wrap #home_header a:hover, html #page_wrap #home_header_wrap #home_header a:hover {
-          color: #f2655a; }
+          color: #4DD0E1; }
         @media (max-width: 700px) {
           body #page_wrap #home_header_wrap #home_header, html #page_wrap #home_header_wrap #home_header {
             padding: 7rem 2rem; } }
@@ -115,7 +115,7 @@ body, html {
             margin-bottom: 0;
             transition: color 0.25s ease; }
           body #page_wrap #work_wrap #work_list li h3:hover, html #page_wrap #work_wrap #work_list li h3:hover {
-            color: #f2655a; }
+            color: #4DD0E1; }
           body #page_wrap #work_wrap #work_list li p, html #page_wrap #work_wrap #work_list li p {
             margin-top: 0.4rem;
             margin-bottom: 0;
@@ -156,9 +156,9 @@ body, html {
           font-weight: 400;
           line-height: 2.1rem; }
           body #page_wrap #about_wrap #description p a, html #page_wrap #about_wrap #description p a {
-            color: #f2655a; }
+            color: #4DD0E1; }
           body #page_wrap #about_wrap #description p a:hover, html #page_wrap #about_wrap #description p a:hover {
-            color: #bf504b; }
+            color: #00BCD4; }
         body #page_wrap #about_wrap #description h4, html #page_wrap #about_wrap #description h4 {
           font-size: 1.5rem;
           margin-bottom: 0.5rem; }
@@ -170,9 +170,9 @@ body, html {
           body #page_wrap #about_wrap #description ul li, html #page_wrap #about_wrap #description ul li {
             margin-top: 0.5rem; }
           body #page_wrap #about_wrap #description ul a, html #page_wrap #about_wrap #description ul a {
-            color: #f2655a; }
+            color: #4DD0E1; }
           body #page_wrap #about_wrap #description ul a:hover, html #page_wrap #about_wrap #description ul a:hover {
-            color: #bf504b; }
+            color: #00BCD4; }
           body #page_wrap #about_wrap #description ul #resume, html #page_wrap #about_wrap #description ul #resume {
             margin-top: 1.5rem; }
     body #page_wrap #about_wrap:after, html #page_wrap #about_wrap:after {
@@ -182,9 +182,9 @@ body, html {
     body #page_wrap .detail_page, html #page_wrap .detail_page {
       padding-bottom: 100px; }
       body #page_wrap .detail_page a, html #page_wrap .detail_page a {
-        color: #f2655a; }
+        color: #4DD0E1; }
       body #page_wrap .detail_page a:hover, html #page_wrap .detail_page a:hover {
-        color: #bf504b; }
+        color: #00BCD4; }
       body #page_wrap .detail_page .title_section, html #page_wrap .detail_page .title_section {
         margin-bottom: 5rem; }
         body #page_wrap .detail_page .title_section .project_title, html #page_wrap .detail_page .title_section .project_title {
