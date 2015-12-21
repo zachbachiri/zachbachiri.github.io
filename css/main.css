@@ -236,6 +236,9 @@ body, html {
       body #page_wrap .detail_page .portfolio_image.three_quarters, html #page_wrap .detail_page .portfolio_image.three_quarters {
         width: 75%;
         margin-right: 5%; }
+      body #page_wrap .detail_page .portfolio_image.fourth, html #page_wrap .detail_page .portfolio_image.fourth {
+        width: 22%;
+        margin-right: 2%; }
     body #page_wrap #footer_wrap, html #page_wrap #footer_wrap {
       position: absolute;
       bottom: 0;
