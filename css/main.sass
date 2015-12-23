@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic,900,900italic)
 @import url(https://fonts.googleapis.com/css?family=Lora:700)
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700)
 $red: #4DD0E1
 $black: #333
 $dark_red: #00BCD4
@@ -11,18 +12,22 @@ body,html
     margin: 0
     padding: 0
     font-size: 12px
-    font-family: 'Lato', Arial, sens-serif
+    font-family: 'Montserrat', Arial, sens-serif
     color: $black
     a 
         text-decoration: none
         color: $black
-        transition: color 0.15s ease
+        transition: color 0.1s ease
     .container
-        max-width: 950px
+        max-width: 1100px
         margin-left: auto 
         margin-right: auto
-        @media (max-width: $mobile)
-            padding: 0 2rem
+        padding: 0 2rem
+    .separator
+        height: 3px 
+        width: 30px
+        background-color: #333
+        margin: 0 0 8rem
     #page_wrap
         position: relative
         min-height: 100%
@@ -31,11 +36,13 @@ body,html
             height: 65px
             padding-top: 20px
             h1
-                font-size: 3rem
+                font-size: 2.5rem
                 font-weight: 700
                 color: $red
-                margin: 0
+                margin: .4rem 0 0 0
                 display: inline-block
+            #home_title
+                color: $black
             ul 
                 display: inline
                 float: right
@@ -56,33 +63,14 @@ body,html
                     li 
                         margin-right: 2rem 
                         margin-left: 0
-        #home_header_wrap
-            background-color: #f7f7f7
-            #home_header
-                padding: 7rem 0
-                h1
-                    font-size: 5em
-                    font-weight: 700
-                    color: $red
-                    margin-top: -.1rem
-                    margin-bottom: .1rem
-                p
-                    font-size: 1.7rem
-                    margin: 0 0 4rem 0
-                a 
-                    font-size: 1.2rem
-                    margin-right: 2rem
-                    margin-left: 2rem
-                    transition: color 0.15s ease
-                a:hover
-                    color: $red
-                @media (max-width: $mobile)
-                    padding: 7rem 2rem
         #work_wrap
-            padding-top: 2rem
             padding-bottom: 5rem
+            h1
+                font-size: 3.5rem
+                margin: 7rem 0 2.7rem
+                color: $red
             h2
-                font-size: 2.5rem
+                font-size: 2rem
                 margin-bottom: 1rem
             #work_list
                 list-style: none
@@ -91,8 +79,8 @@ body,html
                 li
                     display: inline-block
                     vertical-align: top
-                    width: 30%
-                    margin-right: 4%
+                    width: 47%
+                    margin-right: 5%
                     margin-bottom: 2rem
                     @media (max-width: $mobile)
                         width: 100%
@@ -114,20 +102,15 @@ body,html
                         font-weight: 700
                         margin-top: .5rem
                         margin-bottom: 0
-                        transition: color 0.25s ease
+                        transition: color 0.1s ease
                     h3:hover
                         color: $red
                     p
-                        margin-top: .4rem
+                        margin-top: .3rem
                         margin-bottom: 0
                         height: 3rem
                         height: auto
-                    .date 
-                        font-style: italic
-                        color: #a0a0a0
-                        margin-top: 0
-                        font-weight: 300
-                li:nth-child(3n+3)
+                li:nth-child(2n+2)
                     margin-right: 0
         #about_wrap
             padding-top: 5rem
@@ -197,33 +180,28 @@ body,html
                     li 
                         font-size: 1.2rem
                         display: inline
-                        color: #a0a0a0
+                        color: #666
                         margin-right: 1.5rem
-                .date 
-                    font-size: 1.2rem
-                    font-style: italic
-                    font-weight: 300
-                    color: #a0a0a0
-                    margin-top: 0
-                    margin-bottom: 2rem
             p
                 font-size: 1.1rem
                 max-width: 375px
                 line-height: 1.8rem
                 margin-top: 2rem
                 margin-bottom: 3rem
+                color: #666
             .portfolio_image
                 display: inline-block
                 vertical-align: top
                 margin-bottom: 3rem
                 img 
-                    box-shadow: 1px 1px 2px #d0d0d0
+                    border: 1px solid #f0f0f0
                     width: 100%
                 .caption 
                     font-size: 1rem
                     font-weight: 700
                     margin-top: .5rem
                     display: block
+                    color: $black
             .portfolio_image.third
                 width: 30%
                 margin-right: 2%
