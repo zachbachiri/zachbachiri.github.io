@@ -180,6 +180,8 @@ body, html {
             display: inline;
             color: #666;
             margin-right: 1.5rem; }
+      body #page_wrap .detail_page h2, html #page_wrap .detail_page h2 {
+        font-size: 32px; }
       body #page_wrap .detail_page p, html #page_wrap .detail_page p {
         font-size: 1.1rem;
         max-width: 375px;
@@ -224,3 +226,5 @@ body, html {
       background-color: #f7f7f7; }
       body #page_wrap #footer_wrap .container, html #page_wrap #footer_wrap .container {
         padding-top: 1.5rem; }
+
+/*# sourceMappingURL=main.css.map */
