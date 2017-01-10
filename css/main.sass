@@ -50,10 +50,11 @@ body,html
                 li
                     display: inline
                     margin-left: 2rem
-                    a
-                        font-size: 1.2rem
+                    font-size: 1.2rem
                     a:hover
                         color: $red
+                li.active
+                    color: #c0c0c0
             @media (max-width: $mobile)
                 height: 100px
                 ul 
@@ -155,8 +156,6 @@ body,html
                         color: $red
                     a:hover
                         color: $dark_red
-                    #resume
-                        margin-top: 1.5rem
         #about_wrap:after
             clear: both
             content: ""
@@ -175,7 +174,7 @@ body,html
                     //border-top: 1px solid #333
                 .project_categorizations
                     list-style: none
-                    margin: 0
+                    margin: 10px 0 0 0
                     padding: 0
                     li 
                         font-size: 1.2rem
@@ -219,7 +218,31 @@ body,html
             .portfolio_image.fourth
                 width: 22%
                 margin-right: 2%
-
+            .project_nav
+                width: 100%
+                margin: 0
+                padding: 0
+                border-top: 3px solid $black
+                color: #dadada
+                clear: both
+                .project_link
+                    margin: 0
+                    padding: 0
+                    width: 50%
+                    display: inline-block
+                    vertical-align: top
+                    h3
+                        color: $black
+                        margin-top: 5px
+                        font-size: 1.5em
+                    h4
+                        color: #d0d0d0
+                        margin-bottom: 5px
+                        font-size: 1.2em
+                .previous
+                    text-align: left
+                .next
+                    text-align: right
         #footer_wrap
             position: absolute
             bottom: 0

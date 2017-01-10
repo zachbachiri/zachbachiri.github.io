@@ -44,11 +44,12 @@ body, html {
         margin: 1rem 0 0 0; }
         body #page_wrap #header_wrap ul li, html #page_wrap #header_wrap ul li {
           display: inline;
-          margin-left: 2rem; }
-          body #page_wrap #header_wrap ul li a, html #page_wrap #header_wrap ul li a {
-            font-size: 1.2rem; }
+          margin-left: 2rem;
+          font-size: 1.2rem; }
           body #page_wrap #header_wrap ul li a:hover, html #page_wrap #header_wrap ul li a:hover {
             color: #4DD0E1; }
+        body #page_wrap #header_wrap ul li.active, html #page_wrap #header_wrap ul li.active {
+          color: #c0c0c0; }
       @media (max-width: 700px) {
         body #page_wrap #header_wrap, html #page_wrap #header_wrap {
           height: 100px; }
@@ -154,8 +155,6 @@ body, html {
             color: #4DD0E1; }
           body #page_wrap #about_wrap #description ul a:hover, html #page_wrap #about_wrap #description ul a:hover {
             color: #00BCD4; }
-          body #page_wrap #about_wrap #description ul #resume, html #page_wrap #about_wrap #description ul #resume {
-            margin-top: 1.5rem; }
     body #page_wrap #about_wrap:after, html #page_wrap #about_wrap:after {
       clear: both;
       content: "";
@@ -173,7 +172,7 @@ body, html {
           margin-bottom: 0; }
         body #page_wrap .detail_page .title_section .project_categorizations, html #page_wrap .detail_page .title_section .project_categorizations {
           list-style: none;
-          margin: 0;
+          margin: 10px 0 0 0;
           padding: 0; }
           body #page_wrap .detail_page .title_section .project_categorizations li, html #page_wrap .detail_page .title_section .project_categorizations li {
             font-size: 1.2rem;
@@ -217,6 +216,31 @@ body, html {
       body #page_wrap .detail_page .portfolio_image.fourth, html #page_wrap .detail_page .portfolio_image.fourth {
         width: 22%;
         margin-right: 2%; }
+      body #page_wrap .detail_page .project_nav, html #page_wrap .detail_page .project_nav {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-top: 3px solid #333;
+        color: #dadada;
+        clear: both; }
+        body #page_wrap .detail_page .project_nav .project_link, html #page_wrap .detail_page .project_nav .project_link {
+          margin: 0;
+          padding: 0;
+          width: 50%;
+          display: inline-block;
+          vertical-align: top; }
+          body #page_wrap .detail_page .project_nav .project_link h3, html #page_wrap .detail_page .project_nav .project_link h3 {
+            color: #333;
+            margin-top: 5px;
+            font-size: 1.5em; }
+          body #page_wrap .detail_page .project_nav .project_link h4, html #page_wrap .detail_page .project_nav .project_link h4 {
+            color: #d0d0d0;
+            margin-bottom: 5px;
+            font-size: 1.2em; }
+        body #page_wrap .detail_page .project_nav .previous, html #page_wrap .detail_page .project_nav .previous {
+          text-align: left; }
+        body #page_wrap .detail_page .project_nav .next, html #page_wrap .detail_page .project_nav .next {
+          text-align: right; }
     body #page_wrap #footer_wrap, html #page_wrap #footer_wrap {
       position: absolute;
       bottom: 0;
