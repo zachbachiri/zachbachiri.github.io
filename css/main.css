@@ -40,7 +40,9 @@ body, html {
         margin: 0.4rem 0 0 0;
         display: inline-block; }
       body #page_wrap #header_wrap #home_title, html #page_wrap #header_wrap #home_title {
-        color: #333; }
+        color: #333;
+        font-family: "Roboto";
+        font-weight: 900; }
       body #page_wrap #header_wrap ul, html #page_wrap #header_wrap ul {
         display: inline;
         float: right;
