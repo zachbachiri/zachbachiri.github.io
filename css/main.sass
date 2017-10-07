@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic,900,900italic)
-@import url(https://fonts.googleapis.com/css?family=Lora:700)
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700)
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900')
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700')
 $red: #4DD0E1
 $black: #333
 $dark_red: #00BCD4
@@ -12,9 +12,12 @@ body,html
     margin: 0
     padding: 0
     font-size: 12px
-    font-family: 'Montserrat', Arial, sens-serif
+    font-family: 'Roboto', Arial, sens-serif
     color: $black
+    p
+        font-family: 'Roboto Mono'
     a 
+        font-family: 'Roboto Mono'
         text-decoration: none
         color: $black
         transition: color 0.1s ease
@@ -36,8 +39,9 @@ body,html
             height: 65px
             padding-top: 20px
             h1
+                font-family: 'Roboto'
                 font-size: 2.5rem
-                font-weight: 700
+                font-weight: 900
                 color: $red
                 margin: .4rem 0 0 0
                 display: inline-block
@@ -51,6 +55,7 @@ body,html
                     display: inline
                     margin-left: 2rem
                     font-size: 1.2rem
+                    font-family: 'Roboto Mono'
                     a:hover
                         color: $red
                 li.active
@@ -67,7 +72,8 @@ body,html
         #work_wrap
             padding-bottom: 5rem
             h1
-                font-size: 3.5rem
+                font-family: 'Roboto Mono'
+                font-size: 2.5rem
                 margin: 7rem 0 2.7rem
                 color: $red
             h2
@@ -107,6 +113,7 @@ body,html
                     h3:hover
                         color: $red
                     p
+                        font-family: 'Roboto Mono'
                         margin-top: .3rem
                         margin-bottom: 0
                         height: 3rem
@@ -178,18 +185,19 @@ body,html
                     padding: 0
                     li 
                         font-size: 1.2rem
+                        font-family: 'Roboto Mono'
                         display: inline
-                        color: #666
+                        color: #333
                         margin-right: 1.5rem
             h2
                 font-size: 32px
             p
                 font-size: 1.1rem
-                max-width: 375px
+                max-width: 450px
                 line-height: 1.8rem
                 margin-top: 2rem
                 margin-bottom: 3rem
-                color: #666
+                color: #333
             .portfolio_image
                 display: inline-block
                 vertical-align: top
@@ -199,6 +207,7 @@ body,html
                     width: 100%
                 .caption 
                     font-size: 1rem
+                    font-family: 'Roboto Mono'
                     font-weight: 700
                     margin-top: .5rem
                     display: block
