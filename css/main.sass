@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700,900')
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700')
 $red: #4DD0E1
 $black: #333
 $dark_red: #00BCD4
@@ -75,11 +75,14 @@ body,html
                 list-style: none
                 margin: 0
                 padding: 0
+                li.featured
+                    width: 100%
+                    margin-right: 0
                 li
                     display: inline-block
                     vertical-align: top
-                    width: 49%
-                    margin-right: 1%
+                    width: 48%
+                    margin-right: 2%
                     margin-bottom: 3rem
                     @media (max-width: $mobile)
                         width: 100%
@@ -110,7 +113,7 @@ body,html
                         margin-bottom: 0
                         height: 3rem
                         height: auto
-                li:nth-child(2n+2)
+                li:nth-child(2n+1)
                     margin-right: 0
         #about_wrap
             padding-top: 5rem
@@ -163,6 +166,7 @@ body,html
             display: block
         .detail_page
             padding-bottom: 100px
+            font-size: 1.1rem
             a
                 color: $red
             a:hover
@@ -193,6 +197,10 @@ body,html
                 margin-top: 1.5rem
                 margin-bottom: 2rem
                 color: $black
+            ol
+                max-width: 600px
+                li
+                    margin-bottom: 15px
             .portfolio_image
                 display: inline-block
                 vertical-align: top
