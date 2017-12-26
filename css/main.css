@@ -232,7 +232,8 @@ body, html {
           body #page_wrap .detail_page .project_nav .project_link h3, html #page_wrap .detail_page .project_nav .project_link h3 {
             color: #333;
             margin-top: 5px;
-            font-size: 1.5em; }
+            font-size: 1.5em;
+            font-weight: 400; }
           body #page_wrap .detail_page .project_nav .project_link h4, html #page_wrap .detail_page .project_nav .project_link h4 {
             color: #d0d0d0;
             margin-bottom: 5px;
