@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700");
 body, html {
   width: 100%;
@@ -6,17 +5,14 @@ body, html {
   margin: 0;
   padding: 0;
   font-size: 12px;
-  font-family: "Roboto", Arial, sens-serif;
+  font-family: "Roboto Mono", Arial, sens-serif;
   color: #333; }
-  body p, html p {
-    font-family: "Roboto Mono"; }
   body a, html a {
-    font-family: "Roboto Mono";
     text-decoration: none;
     color: #333;
     transition: color 0.1s ease; }
   body .container, html .container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 2rem; }
@@ -29,20 +25,14 @@ body, html {
     position: relative;
     min-height: 100%; }
     body #page_wrap #header_wrap, html #page_wrap #header_wrap {
-      background-color: #f7f7f7;
+      background-color: #fff;
       height: 65px;
       padding-top: 20px; }
       body #page_wrap #header_wrap h1, html #page_wrap #header_wrap h1 {
-        font-family: "Roboto";
-        font-size: 2.5rem;
-        font-weight: 900;
-        color: #4DD0E1;
-        margin: 0.4rem 0 0 0;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 1rem 0 0 0;
         display: inline-block; }
-      body #page_wrap #header_wrap #home_title, html #page_wrap #header_wrap #home_title {
-        color: #333;
-        font-family: "Roboto";
-        font-weight: 900; }
       body #page_wrap #header_wrap ul, html #page_wrap #header_wrap ul {
         display: inline;
         float: right;
@@ -50,10 +40,10 @@ body, html {
         body #page_wrap #header_wrap ul li, html #page_wrap #header_wrap ul li {
           display: inline;
           margin-left: 2rem;
-          font-size: 1.2rem;
-          font-family: "Roboto Mono"; }
+          font-size: 1.2rem; }
           body #page_wrap #header_wrap ul li a:hover, html #page_wrap #header_wrap ul li a:hover {
-            color: #4DD0E1; }
+            color: #4DD0E1;
+            text-decoration: line-through; }
         body #page_wrap #header_wrap ul li.active, html #page_wrap #header_wrap ul li.active {
           color: #c0c0c0; }
       @media (max-width: 700px) {
@@ -69,7 +59,6 @@ body, html {
     body #page_wrap #work_wrap, html #page_wrap #work_wrap {
       padding-bottom: 5rem; }
       body #page_wrap #work_wrap h1, html #page_wrap #work_wrap h1 {
-        font-family: "Roboto Mono";
         font-size: 2.5rem;
         margin: 7rem 0 2.7rem;
         color: #4DD0E1; }
@@ -83,8 +72,8 @@ body, html {
         body #page_wrap #work_wrap #work_list li, html #page_wrap #work_wrap #work_list li {
           display: inline-block;
           vertical-align: top;
-          width: 47%;
-          margin-right: 5%;
+          width: 49%;
+          margin-right: 1%;
           margin-bottom: 3rem; }
           @media (max-width: 700px) {
             body #page_wrap #work_wrap #work_list li, html #page_wrap #work_wrap #work_list li {
@@ -103,16 +92,15 @@ body, html {
             left: 0;
             transition: background-color 0.3s ease; }
           body #page_wrap #work_wrap #work_list li h3, html #page_wrap #work_wrap #work_list li h3 {
-            font-family: "Roboto Mono";
             font-size: 1.3rem;
             font-weight: 700;
             margin-top: 0.5rem;
             margin-bottom: 0;
             transition: color 0.1s ease; }
           body #page_wrap #work_wrap #work_list li h3:hover, html #page_wrap #work_wrap #work_list li h3:hover {
-            color: #4DD0E1; }
+            color: #4DD0E1;
+            text-decoration: line-through; }
           body #page_wrap #work_wrap #work_list li p, html #page_wrap #work_wrap #work_list li p {
-            font-family: "Roboto Mono";
             margin-top: 0.3rem;
             margin-bottom: 0;
             height: 3rem;
@@ -149,7 +137,8 @@ body, html {
           body #page_wrap #about_wrap #description p a, html #page_wrap #about_wrap #description p a {
             color: #4DD0E1; }
           body #page_wrap #about_wrap #description p a:hover, html #page_wrap #about_wrap #description p a:hover {
-            color: #00BCD4; }
+            color: #00BCD4;
+            text-decoration: line-through; }
         body #page_wrap #about_wrap #description h4, html #page_wrap #about_wrap #description h4 {
           font-size: 1.5rem;
           margin-bottom: 0.5rem; }
@@ -163,7 +152,8 @@ body, html {
           body #page_wrap #about_wrap #description ul a, html #page_wrap #about_wrap #description ul a {
             color: #4DD0E1; }
           body #page_wrap #about_wrap #description ul a:hover, html #page_wrap #about_wrap #description ul a:hover {
-            color: #00BCD4; }
+            color: #00BCD4;
+            text-decoration: line-through; }
     body #page_wrap #about_wrap:after, html #page_wrap #about_wrap:after {
       clear: both;
       content: "";
@@ -173,7 +163,8 @@ body, html {
       body #page_wrap .detail_page a, html #page_wrap .detail_page a {
         color: #4DD0E1; }
       body #page_wrap .detail_page a:hover, html #page_wrap .detail_page a:hover {
-        color: #00BCD4; }
+        color: #00BCD4;
+        text-decoration: line-through; }
       body #page_wrap .detail_page .title_section, html #page_wrap .detail_page .title_section {
         margin-bottom: 5rem; }
         body #page_wrap .detail_page .title_section .project_title, html #page_wrap .detail_page .title_section .project_title {
@@ -185,7 +176,6 @@ body, html {
           padding: 0; }
           body #page_wrap .detail_page .title_section .project_categorizations li, html #page_wrap .detail_page .title_section .project_categorizations li {
             font-size: 1.2rem;
-            font-family: "Roboto Mono";
             display: inline;
             color: #333;
             margin-right: 1.5rem; }
@@ -193,7 +183,7 @@ body, html {
         font-size: 32px; }
       body #page_wrap .detail_page p, html #page_wrap .detail_page p {
         font-size: 1.1rem;
-        max-width: 450px;
+        max-width: 600px;
         line-height: 1.8rem;
         margin-top: 2rem;
         margin-bottom: 3rem;
@@ -207,7 +197,6 @@ body, html {
           width: 100%; }
         body #page_wrap .detail_page .portfolio_image .caption, html #page_wrap .detail_page .portfolio_image .caption {
           font-size: 1rem;
-          font-family: "Roboto Mono";
           font-weight: 700;
           margin-top: 0.5rem;
           display: block;
