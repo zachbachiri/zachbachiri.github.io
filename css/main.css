@@ -20,7 +20,7 @@ body, html {
     height: 3px;
     width: 30px;
     background-color: #333;
-    margin: 0 0 8rem; }
+    margin: 0 0 10rem; }
   body #page_wrap, html #page_wrap {
     position: relative;
     min-height: 100%; }
@@ -59,8 +59,8 @@ body, html {
     body #page_wrap #work_wrap, html #page_wrap #work_wrap {
       padding-bottom: 5rem; }
       body #page_wrap #work_wrap h1, html #page_wrap #work_wrap h1 {
-        font-size: 2.5rem;
-        margin: 7rem 0 2.7rem;
+        font-size: 3rem;
+        margin: 10rem 0 2.7rem;
         color: #4DD0E1; }
       body #page_wrap #work_wrap h2, html #page_wrap #work_wrap h2 {
         font-size: 2rem;
